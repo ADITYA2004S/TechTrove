@@ -1,0 +1,73 @@
+
+body{
+    margin: 0;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 0 5rem 0 0;
+    align-items: center;
+    color: white;
+    display: grid;
+}
+
+ul
+{
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+
+}
+
+ul>li{
+    list-style: none;
+}
+
+.nav-icons
+{
+    width: 1.8rem;
+    
+}
+
+.brand-logo
+{
+    padding: 1.8rem 0 1rem 3rem;
+    /* font-weight: bolder; */
+    /* font-size: 1.5rem; */
+    width:4rem;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ul>li>a:hover
+{
+    color: rgba(255, 0, 0, 0.81);
+    transition: 500ms;
+}
+
+
+.trove
+{
+    color: rgba(255, 0, 0, 0.81);
+}
+
+.brand-nameing
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.brand-text{
+    display: inline;
+     font-weight: bolder;
+     font-size: 1.5rem; 
+}
