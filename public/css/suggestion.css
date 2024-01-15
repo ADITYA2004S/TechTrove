@@ -1,11 +1,10 @@
-h1{
+h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    
+
 }
 
-#suggestion-div1
-{
+#suggestion-div1 {
     grid-template-columns: auto auto auto;
     /* grid-template-rows: auto auto; */
     justify-content: center;
@@ -14,31 +13,30 @@ h1{
     gap: 3rem;
 }
 
-.headphone-img
-{
-    width: 15rem;
+.headphone-img {
+    width: 13rem;
+}
+
+.card3-img {
+    width: 13rem;
 }
 
 
-
-.headphone-card
-{
+.headphone-card {
     /* background-color: wheat; */
     /* padding: 2rem 2rem ; */
     border-radius: 30px;
     transition: 500ms;
+    box-shadow: 15px 15px 15px #00000050;
 
 }
 
-.headphone-card:hover
-{
-    box-shadow: 15px 15px 15px #00000070;
+.headphone-card:hover {
     transform: scale(1.05);
     transition: 200ms;
 }
 
-.type1-grid
-{
+.type1-grid {
     font-family: 'Poppins', sans-serif;
     grid-template-columns: auto auto;
     justify-content: center;
@@ -47,38 +45,39 @@ h1{
     gap: 1rem;
 }
 
-.card-desc
-{
+.card-desc {
     width: 15rem;
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 
-    
-}
-
-.card1
-{
-    background-image: linear-gradient(90deg, #00000075,#000000);
-}
-
-.card2
-{
-    background-image: linear-gradient(45deg, #8D0411,#ED0F28);
 
 }
 
-.card3
-{
+.card1 {
+    background-image: linear-gradient(90deg, #00000075, #000000);
+    padding: 1rem;
+}
+
+.card2 {
+    background-image: linear-gradient(45deg, #8D0411, #ED0F28);
+
+}
+
+.card3 {
     background-image: linear-gradient(45deg, #FFA03B, #F7D05F);
-    position: relative;
-    text-align: center;
-   
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+
+
 }
 
-.view-btn
-{
+.view-btn {
     font-size: 1rem;
     padding: 0.8rem;
     border-radius: 5px;
@@ -86,28 +85,27 @@ h1{
     background-color: #ffffff;
 }
 
-#suggestion-div2
-{
+#suggestion-div2 {
     grid-template-columns: auto auto auto;
     /* grid-template-rows: auto auto; */
     justify-content: center;
     align-items: center;
     display: grid;
-    gap: 4rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
 }
 
-.card4, .card5
-{
-    background-image: linear-gradient(45deg,#0F396D,#0996E3);
-    grid-template-columns:  auto auto;
+.card4,
+.card5 {
+    background-image: linear-gradient(45deg, #0F396D, #0996E3);
+    grid-template-columns: auto auto;
     justify-content: space-around;
     background-color: wheat;
     align-items: center;
     display: grid;
 }
 
-.discount-text
-{
+.discount-text {
     font-family: 'Poppins', sans-serif;
     color: #ffffff80;
     font-weight: 900;
@@ -116,18 +114,17 @@ h1{
 
 }
 
-.card5
-{
-    background-image: linear-gradient(45deg ,#7A6454,#EAD5C7);
+.card5 {
+    background-image: linear-gradient(45deg, #7A6454, #EAD5C7);
 }
 
-.card6
-{
-    background-image: linear-gradient(45deg ,#50405D,#B783DF);
-    padding: 0 8rem;
+.card6 {
+    background-image: linear-gradient(45deg, #50405D, #B783DF);
+    /* padding: 0 8rem; */
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 
 }
