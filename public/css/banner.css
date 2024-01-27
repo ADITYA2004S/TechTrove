@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.banner {
+    width: auto;
+    height: 700px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-image: url(../images/banner/man-img.jpg);
+}
+
+.shop {
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.content {
+    padding: 200px;
+    display: flex;
+    float: center;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headphone {
+    letter-spacing: 30px;
+}
+
+.main-head {
+    font-size: 40px;
+}
