@@ -53,7 +53,7 @@ ul>li>a:hover {
     color: rgba(255, 0, 0, 0.81);
 }
 
-.brand-nameing {
+.brand-naming {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
@@ -64,4 +64,28 @@ ul>li>a:hover {
     display: inline;
     font-weight: bolder;
     font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+ul li a {
+    position: relative;
+}
+
+ul li a::before {
+
+    border-bottom: 2px solid rgba(255, 0, 0, 0.81);
+
+    transform: scaleY(3);
+    position: absolute;
+    transition: 300ms;
+    height: 100%;
+    width: 100%;
+    content: '';
+    opacity: 0;
+
+}
+
+ul li a:hover::before {
+    transform: scaleY(1.8);
+    opacity: 1;
 }

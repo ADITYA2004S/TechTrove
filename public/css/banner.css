@@ -6,10 +6,13 @@ body {
 
 .banner {
     width: auto;
-    height: 700px;
-    object-fit: fill;
-    background-repeat: no-repeat;
+    height: auto;
+    /* object-fit: fill; */
     background-image: url(../images/banner/man-img.jpg);
+    background-size: cover;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+
 }
 
 .shop {
@@ -27,16 +30,13 @@ body {
 
 .content {
     padding: 200px;
-    display: flex;
-    float: center;
-    flex-direction: column;
-    line-height: 10px;
-    justify-content: center;
-    align-items: center;
+
+
 }
 
 .headphone {
     letter-spacing: 30px;
+
 }
 
 .main-head {

@@ -1,6 +1,10 @@
 h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    color: #000000;
+    padding: 1rem 0;
+    background-color: #80808030;
+    padding: 5rem 0 0 0;
 
 }
 
@@ -11,6 +15,10 @@ h1 {
     align-items: center;
     display: grid;
     gap: 3rem;
+    background-color: #80808030;
+    padding-top: 1rem;
+
+
 }
 
 .headphone-img {
@@ -97,7 +105,8 @@ a {
     align-items: center;
     display: grid;
     gap: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    background-color: #80808030;
 }
 
 .card4,
@@ -132,4 +141,25 @@ a {
     align-items: center;
     padding: 1rem;
 
+}
+
+.see-btn {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    transition: 500ms;
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #80808030;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.see-btn:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
 }
