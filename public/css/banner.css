@@ -30,8 +30,13 @@ body {
 
 .content {
     padding: 200px;
+    text-align: center;
+}
 
-
+.headphone-text {
+    letter-spacing: 30px;
+    font-size: 3rem;
+    padding: 2rem 0;
 }
 
 .headphone {

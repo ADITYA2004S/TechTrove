@@ -1,0 +1,47 @@
+#product-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px dashed #808080;
+
+}
+
+.price-filter {
+    border-radius: 10px;
+    border-style: none;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.price-text {
+    background-color: #80808030;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+
+}
+
+.price-filter::placeholder {
+    color: black;
+    padding-left: 1rem;
+}
+
+
+
+#product-nav {
+    padding-top: 2rem;
+
+}
+
+.dropdown-btn {
+    width: 1rem;
+}
+
+.hamburger-logo {
+    width: 3rem;
+    padding-right: 5rem;
+}
