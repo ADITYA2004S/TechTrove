@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-cont {
+    background-color: #000000;
+
+}
+
+.footer-img {
+    width: 20rem;
+}
+
+.text-sec>ul>li {
+    color: white;
+    list-style: none;
+    letter-spacing: 1.2px;
+    transition: 500ms;
+}
+
+.text-sec>ul>li:hover {
+    transform: translateX(8px);
+}
+
+.text-sec>ul>.list-title {
+    color: red;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.secondary-cont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+    background-color: #80808050;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.text-sec {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: start;
+    gap: 5rem;
+}
+
+.text-sec,
+.newsletter {
+    padding-top: 6rem;
+    color: white;
+}
+
+
+
+.newsletter-title {
+    padding-bottom: 1.2rem;
+    padding-right: 1.25rem;
+}
+
+.newsletter-email {
+    padding: 0.5rem 0.5rem;
+}
+
+.follow-text {
+    padding-top: 1.2rem;
+}
+
+.copyright {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.copyright-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.thank-text {
+    text-align: center;
+
+    font-family: "Over the Rainbow", cursive;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.text-sec>ul {
+    display: grid;
+    grid-template-columns: auto;
+    line-height: 1;
+}

@@ -11,6 +11,9 @@ app.get("/", (req, res) => {
 app.get("/product", (req, res) => {
   res.render("product.ejs");
 });
+app.get("/footer", (req, res) => {
+  res.render("footer.ejs");
+});
 
 app.listen(3000, () => {
   console.log("Server is active at 3000");
