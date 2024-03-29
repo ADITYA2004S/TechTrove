@@ -15,6 +15,13 @@ app.get("/footer", (req, res) => {
   res.render("footer.ejs");
 });
 
+app.get("/help", (req, res) => {
+  res.render("help.ejs");
+});
+app.get("/user", (req, res) => {
+  res.render("./user/user.ejs");
+});
+
 app.listen(3000, () => {
   console.log("Server is active at 3000");
 });

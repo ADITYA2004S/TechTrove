@@ -1,0 +1,55 @@
+#help-page {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #445B7D;
+    border-radius: 50px;
+    width: fit-content;
+    margin: auto;
+    padding: 0 15rem;
+    gap: 8rem;
+}
+
+.help-main-form {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.help-form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.help-form-input {
+    padding: 0.8rem 8rem 0.8rem 0.5rem;
+    text-align: left;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+
+}
+
+.desc-input {
+    padding-bottom: 8rem;
+}
+
+.help-form-btn {
+    background-color: #196EFF;
+    color: white;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+
+}
